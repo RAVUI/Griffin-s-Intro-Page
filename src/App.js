@@ -37,7 +37,7 @@ function App() {
   }, []);
 
   const openMail = () => {
-    window.location.href = "mailto:griffinschoco@gmail.com";
+    window.location.href = "mailto:griffinscocoa00@gmail.com";
   };
 
   const openWhatsApp = () => {
@@ -52,14 +52,16 @@ function App() {
     <div className="app">
       {/* Header */}
       <header className="header">
-        <div className="container">
-          <div className="logo">
-            <h1>Griffin's</h1>
-            <span>Handmade Chocolate</span>
-          </div>
-        </div>
-      </header>
-
+  <div className="container">
+    <div className="logo">
+      <img src="/images/Store Favicon.png" alt="Griffin's Logo" className="logo-image" />
+      <div className="logo-text">
+        <h1>Griffin's</h1>
+        <span>Handmade Chocolate</span>
+      </div>
+    </div>
+  </div>
+</header>
       {/* Hero Section */}
       <section className="hero">
         <div className="container">
@@ -82,21 +84,21 @@ function App() {
           <div className="product-grid">
             <div className="product-item" ref={el => productItemsRef.current[0] = el}>
               <div className="product-image">
-                <img src="/images/image-33.png" alt="Artisan Chocolates" />
+                <img src="/images/image-33.png" alt="Rippled Trufflet" />
               </div>
-              <h4>Artisan Chocolates</h4>
+              <h4>Rippled Trufflet</h4>
             </div>
             
             <div className="product-item" ref={el => productItemsRef.current[1] = el}>
               <div className="product-image">
-                <img src="/images/image-35.png" alt="Gift Packages" />
+                <img src="/images/Gift.jpg" alt="Gift Packages" />
               </div>
               <h4>Gift Packages</h4>
             </div>
             
             <div className="product-item" ref={el => productItemsRef.current[2] = el}>
               <div className="product-image">
-                <img src="/images/image-43.png" alt="Custom Chocolates" />
+                <img src="/images/Custom Chocolate .jpg" alt="Custom Chocolates" />
               </div>
               <h4>Custom Chocolates</h4>
             </div>
