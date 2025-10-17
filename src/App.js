@@ -123,7 +123,7 @@ function App() {
             </div>
             <div className="featured-images">
               <img src="/images/image-47.png" alt="Featured Chocolate" />
-              <img src="/images/image-52.png" alt="Chocolate Collection" />
+              <img src="/images/image-44.png" alt="Chocolate Collection" />
             </div>
           </div>
         </div>
