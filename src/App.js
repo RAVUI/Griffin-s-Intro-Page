@@ -98,14 +98,14 @@ function App() {
             
             <div className="product-item" ref={el => productItemsRef.current[2] = el}>
               <div className="product-image">
-                <img src="/images/Custom Chocolate .jpg" alt="Custom Chocolates" />
+                <img src="/images/image-36.png" alt="Custom Chocolates" />
               </div>
               <h4>Custom Chocolates</h4>
             </div>
             
             <div className="product-item" ref={el => productItemsRef.current[3] = el}>
               <div className="product-image">
-                <img src="/images/image-46.png" alt="Kunafa Delights" />
+                <img src="/images/WhatsApp Image 2025-10-15 at 06.39.20_60cb96bf.jpg" alt="Kunafa Delights" />
               </div>
               <h4>Kunafa Delights</h4>
             </div>
